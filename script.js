@@ -1,11 +1,11 @@
 const form = document.getElementById("form-cadastro");
 const listafilmes = document.getElementById("lista-filmes");
 
-// Função de adicionar filmes
+//  adicionar filmes
 function adicionarfilme(event) {
     event.preventDefault();
 
-    // Pega os valores
+    // Pega os valores 
     const titulo = document.getElementById("titulo").value;
     const ano = document.getElementById("ano").value;
     const genero = document.getElementById("genero").value;
