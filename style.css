@@ -48,7 +48,7 @@ height: 100px;
 resize: none;
 }
 
-button{
+.btnCadastro{
     width: 100px;
     padding: 10px;
     background-color: rgba(138, 138, 138, 0.952);
@@ -74,13 +74,13 @@ button:hover{
     gap: 2px;
 }
 
-#editar{
+.editar{
     background-color: rgb(240, 240, 82);
     padding: 10px;
     gap: 5px;
 
 }
-#deletar{
+.deletar{
     background-color: rgb(241, 55, 55);
     padding: 10px;
     gap: 5px;
